@@ -6,7 +6,28 @@ h2 + p {
     color: red;
 }
 
+li > a:link {
+    color: green;
+}
+
+li > a:visited {
+    color: red;
+}
+
+li > a:hover {
+    color: pink;
+}
+
 ul.list > li {
     list-style-type: none;
     border-bottom: 1px solid grey 
+}
+
+li:first-child::first-letter{
+    font-size: 120%; 
+    font: bold;
+}
+
+a[title= "BCIT homepage"] {
+    background: yellow
 }
